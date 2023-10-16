@@ -1,0 +1,1 @@
+for zz=9.5*3:-0.5:-9.5*3; figure; imagesc(abs(plane(maske.*exp(1i*angle(W_in)),zz*posMetric)).^2); title(zz); end;
